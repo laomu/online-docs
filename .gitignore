@@ -1,0 +1,19 @@
+# 构建输出目录
+/build/
+/dist/
+
+node_modules/
+.babel-cache/
+.cache/
+.eslintcache
+.vscode/
+.idea/
+.env
+.env.local
+.env.development
+.env.production
+*.log
+/coverage/
+/*.js
+*.tmp
+*.swp
