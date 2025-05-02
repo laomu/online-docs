@@ -30,7 +30,7 @@ export default defineConfig({
   description: "希望你见过所有的浑浊，眼里还有星辰，大牧莫邪的在线文档库",
   themeConfig: {
     // 配置项目的基础目录
-    // base: 'docs',
+    base: '/online-docs',
     // logo配置
     logo: {
       light: "/logo_dark.png",
