@@ -24,7 +24,7 @@ import { set_sidebar } from './utils/auto_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/documentation',
+  base: '/online-docs',
   head: [["link", { rel: "icon", href: "/logo_dark.png" }]],
   title: "牧码人",
   description: "希望你见过所有的浑浊，眼里还有星辰，大牧莫邪的在线文档库",
