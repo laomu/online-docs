@@ -70,7 +70,7 @@ export default defineConfig({
       },
       {
         text: '工具软件', items: [
-          { text: "待升级..", link: "/" }
+          { text: "网站维护", link: "/tools/website" }
         ]
       },
       {
@@ -83,6 +83,7 @@ export default defineConfig({
     // sidebar: withSidebar(vitePressOptions, vitePressSidebarOptions),
     sidebar: {
       "/programming/Python": set_sidebar('/programming/Python/'),
+      "/tools/website": set_sidebar('/tools/website/')
     },
 
 
