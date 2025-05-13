@@ -31,10 +31,15 @@ function getList(params, path1, pathname) {
         if (isDir) {
             // 如果是文件夹,读取之后作为下一次递归参数
             const files = fs.readdirSync(dir);
+            // 过滤掉
+            const items2 = intersections(files, WHITE_LIST);
+            if(file == "assets"){
+                continue
+            }
             res.push({
                 text: params[file],
                 collapsed: true,
-                items: getList(files, dir, `${pathname}/${params[file]}`)
+                items: getList(items2, dir, `${pathname}/${params[file]}`)
             });
         } else {
             //获取名字
