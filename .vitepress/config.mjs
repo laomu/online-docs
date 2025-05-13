@@ -91,10 +91,10 @@ export default defineConfig({
     // sidebar: withSidebar(vitePressOptions, vitePressSidebarOptions),
     sidebar: {
       "/programming/Python": set_sidebar('/programming/Python/'),
-      "/machinelearning/1、数学基础": set_sidebar('/machinelearning/1、数学基础/'),
-      "/machinelearning/2、数据分析": set_sidebar('/machinelearning/2、数据分析/'),
-      "/machinelearning/3、机器学习": set_sidebar('/machinelearning/3、机器学习/'),
-      "/machinelearning/4、深度学习": set_sidebar('/machinelearning/4、深度学习/'),
+      "/machinelearning/1、数学基础": set_sidebar('/machinelearning/1、数学基础'),
+      "/machinelearning/2、数据分析": set_sidebar('/machinelearning/2、数据分析'),
+      "/machinelearning/3、机器学习": set_sidebar('/machinelearning/3、机器学习'),
+      "/machinelearning/4、深度学习": set_sidebar('/machinelearning/4、深度学习'),
       "/tools/website": set_sidebar('/tools/website/'),
     },
 
