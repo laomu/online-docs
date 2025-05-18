@@ -45,7 +45,11 @@ export default defineConfig({
       },
       {
         text: '前端开发', items: [
-          { text: "待升级..", link: "/" }
+          { text: "网页设计开发", link: "/webpage" },
+          { text: "JavaScript", link: "/webpage" },
+          { text: "NodeJS", link: "/webpage" },
+          { text: "Vue3.x", link: "/webpage" },
+          { text: "Uniapp", link: "/webpage/5.Uniapp" },
         ]
       },
       {
@@ -96,6 +100,7 @@ export default defineConfig({
       "/machinelearning/3、机器学习": set_sidebar('/machinelearning/3、机器学习'),
       "/machinelearning/4、深度学习": set_sidebar('/machinelearning/4、深度学习'),
       "/tools/website": set_sidebar('/tools/website/'),
+      "/webpage/5.Uniapp": set_sidebar('/webpage/5.Uniapp'),
     },
 
 
